@@ -1,20 +1,3 @@
-h1,
-h2,
-nav {
-  font-family: "Hannotate SC", "Helvetica Neue", "Helvetica", "Hiragino Sans",
-    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #fff;
-  font-weight: bold;
-}
-
-/*top*/
-
-/*work*/
-
 #work {
   color: white;
 }
