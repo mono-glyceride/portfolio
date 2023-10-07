@@ -6,8 +6,8 @@ nav {
 }
 
 section {
-  padding-top: 3rem;
-  margin-top: 3rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .nav-pills .nav-link.active,
@@ -29,6 +29,7 @@ section {
 }
 
 .work-title {
+  font-size: 1.2rem;
   top: 0;
   left: 0;
   -webkit-transition: all 0.4s;
