@@ -5,11 +5,6 @@ nav {
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 
-section {
-  padding-top: 3rem;
-  margin-top: 3rem;
-}
-
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #f8f9fa;
@@ -17,7 +12,48 @@ section {
 }
 
 /*top*/
-.m-20 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+
+/*work*/
+
+#work {
+  color: white;
+}
+
+.work-title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-size: clamp(10px, 1vw, 20px);
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.work-card:hover .work-title {
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.work-image {
+  padding-top: 0.5rem;
+  transition: 0.4s;
+}
+
+.work-card:hover .work-image {
+  transform: scale(1.1);
+}
+
+.modal-dialog {
+  max-width: 800px;
+  width: 75%;
+}
+
+.modal-dialog > img {
+  padding: 1%;
+  background-color: #343a40;
 }

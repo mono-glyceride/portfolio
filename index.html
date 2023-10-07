@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>タイトル</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="main.css" />
     <script
@@ -24,10 +31,6 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/da0fa6be04.js"
       crossorigin="anonymous"
     ></script>
   </head>
@@ -55,37 +58,130 @@
     </div>
     <!----- ヘッダー END ----->
     <!----- メインコンテンツ ----->
-    <main class="container-fluid mt-5 p-0">
-      <section class="text-center m-20">
-        <h1 class="display-1">Portfolio</h1>
-        <h2>IT engineer</h2>
+    <main class="container-fluid p-0">
+      <section class="text-center d-flex align-items-center vh-100">
+        <div class="m-auto">
+          <h1 class="display-1">Portfolio</h1>
+          <h2>IT engineer</h2>
+        </div>
       </section>
 
-      <section id="work" class="text-center bg-light">
+      <section id="work" class="text-center bg-dark p-5">
         <h1>Work</h1>
         <div class="row">
-          <div class="col-12 p-3 col-md-4">
-            <h2>Swop</h2>
-            <div class="row p-3 p-md-5">
-              <img src="images/work/swop_1.png" alt="Work Image" class="img-fluid col-6" />
-              <img src="images/work/swop_2.png" alt="Work Image" class="img-fluid col-6" />
-            </div>
+          <div
+            data-target="#swopModal"
+            data-toggle="modal"
+            class="col-12 col-sm-4 work-card"
+          >
+            <h2 class="work-title">Swop</h2>
+            <img
+              src="images/work/swop.png"
+              alt="Work Image"
+              class="img-fluid px-lg-5 px-3 work-image"
+            />
           </div>
-          <div class="col-12 p-3 col-md-4">
-            <h2>通りすがりメモリー</h2>
-            <div class="row p-md-5">
-              <img src="images/work/torisugari_1.png" alt="Work Image" class="img-fluid col-6" />
-              <img src="images/work/torisugari_2.png" alt="Work Image" class="img-fluid col-6" />
-            </div>
+          <div
+            data-target="#torisugariModal"
+            data-toggle="modal"
+            class="col-12 col-sm-4 work-card"
+          >
+            <h2 class="work-title">通りすがりメモリー</h2>
+            <img
+              src="images/work/torisugari.png"
+              alt="Work Image"
+              class="img-fluid px-lg-5 px-3 work-image"
+            />
           </div>
-          <div class="col-12 p-3 col-md-4">
-            <h2>Swop</h2>
-            <div class="row p-3 p-md-5">
-              <img src="images/work/swop_1.png" alt="Work Image" class="img-fluid col-6" />
-              <img src="images/work/swop_2.png" alt="Work Image" class="img-fluid col-6" />
-            </div>
+          <div
+            data-target="#outisateiModal"
+            data-toggle="modal"
+            class="col-12 col-sm-4 work-card"
+          >
+            <h2 class="work-title">お家査定ナビ</h2>
+            <img
+              src="images/work/ouchisatei.png"
+              alt="Work Image"
+              class="img-fluid px-lg-5 px-3 work-image"
+            />
           </div>
+        </div>
+        <div class="p-2 pt-5 mr-0">
           <p class="fs-3">Etc...</p>
+        </div>
+        <div
+          class="modal fade"
+          id="swopModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="swopModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="text-right">
+              <button
+                type="button"
+                class="btn btn-light m-2"
+                data-dismiss="modal"
+                aria-label="閉じる"
+              >
+                閉じる
+              </button>
+            </div>
+            <img src="images/work/swop.png" alt="Work Image" class="w-100" />
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="torisugariModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="swopModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="text-right">
+              <button
+                type="button"
+                class="btn btn-light m-2"
+                data-dismiss="modal"
+                aria-label="閉じる"
+              >
+                閉じる
+              </button>
+            </div>
+            <img
+              src="images/work/torisugari.png"
+              alt="Work Image"
+              class="w-100"
+            />
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="outisateiModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="swopModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="text-right">
+              <button
+                type="button"
+                class="btn btn-light m-2"
+                data-dismiss="modal"
+                aria-label="閉じる"
+              >
+                閉じる
+              </button>
+            </div>
+            <img
+              src="images/work/ouchisatei.png"
+              alt="Work Image"
+              class="w-100"
+            />
+          </div>
+        </div>
       </section>
 
       <section id="skill">
@@ -99,7 +195,6 @@
       <section id="contact">
         <h1>Skill</h1>
       </section>
-
     </main>
     <!----- メインコンテンツ END ----->
     <!----- フッター ----->
@@ -107,5 +202,6 @@
       <p class="">(c)test.com</p>
     </footer>
     <!----- フッター END ----->
+    <script src="js/work.js"></script>
   </body>
 </html>
