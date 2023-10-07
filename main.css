@@ -44,11 +44,3 @@ section {
   left: 0;
   opacity: 1;
 }
-
-.work-image {
-  transition: 0.4s;
-}
-
-.work-card:hover .work-image {
-  transform: scale(1.2);
-}
