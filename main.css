@@ -5,11 +5,6 @@ nav {
     "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 
-section {
-  padding-top: 1rem;
-  margin-top: 1rem;
-}
-
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: #f8f9fa;
@@ -17,9 +12,8 @@ section {
 }
 
 /*top*/
-.m-20 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+#top {
+  height: 100vh;
 }
 
 /*work*/
