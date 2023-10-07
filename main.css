@@ -10,6 +10,12 @@ section {
   margin-top: 3rem;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
 /*top*/
 .m-20 {
   margin-top: 10rem;
