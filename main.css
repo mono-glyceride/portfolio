@@ -46,6 +46,15 @@ section {
   opacity: 1;
 }
 
+.work-image {
+  padding-top: 0.5rem;
+  transition: 0.4s;
+}
+
+.work-card:hover .work-image {
+  transform: scale(1.1);
+}
+
 .modal-dialog {
   max-width: 800px;
   width: 75%;
