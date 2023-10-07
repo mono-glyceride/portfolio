@@ -44,3 +44,13 @@ section {
   left: 0;
   opacity: 1;
 }
+
+.modal-dialog {
+  max-width: 800px;
+  width: 75%;
+}
+
+.modal-dialog > img {
+  padding: 5%;
+  background-color: #343a40;
+}
