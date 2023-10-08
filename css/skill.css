@@ -1,0 +1,49 @@
+#skill {
+  background-color: #fff;
+}
+
+.skill-title {
+  font-size: 26px;
+  font-size: clamp(20px, 1vw, 30px);
+}
+
+.skill-card {
+  text-align: left;
+  border: none;
+  padding: 2rem;
+}
+
+.skill-card > .card-body {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+  background: transparent;
+}
+
+.skill-card > .card-body::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #343a40;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform ease 0.3s;
+}
+
+.skill-card > .card-body:hover {
+  color: #fff;
+}
+
+.skill-card > .card-body:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+
+.skill-card > div .card-text {
+  font-size: 20px;
+  font-size: clamp(15px, 1vw, 20px);
+}

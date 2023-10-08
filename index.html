@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="css/skill.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -61,133 +62,144 @@
     <!----- ヘッダー END ----->
     <!----- メインコンテンツ ----->
     <main class="container-fluid p-0">
-      <section class="text-center d-flex align-items-center vh-100">
+      <section class="d-flex align-items-center vh-100">
         <div class="m-auto">
           <h1 class="display-1">Portfolio</h1>
           <h2>IT engineer</h2>
         </div>
       </section>
 
-      <section id="work" class="text-center bg-dark p-5">
+      <section id="work" class="bg-dark p-3 p-md-5">
         <h1>Work</h1>
         <div class="row">
-          <div
-            data-target="#swopModal"
-            data-toggle="modal"
-            class="col-12 col-sm-4 work-card"
-          >
+          <div data-target="#swopModal" data-toggle="modal" class="col-12 col-sm-4 work-card">
             <h2 class="work-title">Swop</h2>
-            <img
-              src="images/work/swop.png"
-              alt="Work Image"
-              class="img-fluid px-lg-5 px-3 work-image"
-            />
+            <img src="images/work/swop.png" alt="Work Image" class="img-fluid px-lg-5 px-3 work-image" />
           </div>
-          <div
-            data-target="#torisugariModal"
-            data-toggle="modal"
-            class="col-12 col-sm-4 work-card"
-          >
+          <div data-target="#torisugariModal" data-toggle="modal" class="col-12 col-sm-4 work-card">
             <h2 class="work-title">通りすがりメモリー</h2>
-            <img
-              src="images/work/torisugari.png"
-              alt="Work Image"
-              class="img-fluid px-lg-5 px-3 work-image"
-            />
+            <img src="images/work/torisugari.png" alt="Work Image" class="img-fluid px-lg-5 px-3 work-image" />
           </div>
-          <div
-            data-target="#outisateiModal"
-            data-toggle="modal"
-            class="col-12 col-sm-4 work-card"
-          >
+          <div data-target="#outisateiModal" data-toggle="modal" class="col-12 col-sm-4 work-card">
             <h2 class="work-title">お家査定ナビ</h2>
-            <img
-              src="images/work/ouchisatei.png"
-              alt="Work Image"
-              class="img-fluid px-lg-5 px-3 work-image"
-            />
+            <img src="images/work/ouchisatei.png" alt="Work Image" class="img-fluid px-lg-5 px-3 work-image" />
           </div>
         </div>
         <div class="p-2 pt-5 mr-0">
           <p class="fs-3">Etc...</p>
         </div>
-        <div
-          class="modal fade"
-          id="swopModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="swopModalLabel"
-        >
+        <div class="modal fade" id="swopModal" tabindex="-1" role="dialog" aria-labelledby="swopModalLabel">
           <div class="modal-dialog" role="document">
             <div class="text-right">
-              <button
-                type="button"
-                class="btn btn-light m-2"
-                data-dismiss="modal"
-                aria-label="閉じる"
-              >
-                閉じる
-              </button>
+              <button type="button" class="btn btn-light m-2" data-dismiss="modal" aria-label="閉じる">閉じる</button>
             </div>
             <img src="images/work/swop.png" alt="Work Image" class="w-100" />
           </div>
         </div>
 
-        <div
-          class="modal fade"
-          id="torisugariModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="swopModalLabel"
-        >
+        <div class="modal fade" id="torisugariModal" tabindex="-1" role="dialog" aria-labelledby="swopModalLabel">
           <div class="modal-dialog" role="document">
             <div class="text-right">
-              <button
-                type="button"
-                class="btn btn-light m-2"
-                data-dismiss="modal"
-                aria-label="閉じる"
-              >
-                閉じる
-              </button>
+              <button type="button" class="btn btn-light m-2" data-dismiss="modal" aria-label="閉じる">閉じる</button>
             </div>
-            <img
-              src="images/work/torisugari.png"
-              alt="Work Image"
-              class="w-100"
-            />
+            <img src="images/work/torisugari.png" alt="Work Image" class="w-100" />
           </div>
         </div>
 
-        <div
-          class="modal fade"
-          id="outisateiModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="swopModalLabel"
-        >
+        <div class="modal fade" id="outisateiModal" tabindex="-1" role="dialog" aria-labelledby="swopModalLabel">
           <div class="modal-dialog" role="document">
             <div class="text-right">
-              <button
-                type="button"
-                class="btn btn-light m-2"
-                data-dismiss="modal"
-                aria-label="閉じる"
-              >
-                閉じる
-              </button>
+              <button type="button" class="btn btn-light m-2" data-dismiss="modal" aria-label="閉じる">閉じる</button>
             </div>
-            <img
-              src="images/work/ouchisatei.png"
-              alt="Work Image"
-              class="w-100"
-            />
+            <img src="images/work/ouchisatei.png" alt="Work Image" class="w-100" />
           </div>
         </div>
       </section>
 
-      <section id="skill">
+      <section id="skill" class="p-2 p-md-5">
         <h1>Skill</h1>
+        <div>
+          <div class="row">
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/rails.png" alt="railsロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">Ruby on Rails</h2>
+                  <p class="card-text">
+                    長期インターンで業務システムを実装しました。実務ではテストや既存機能の修正、新規機能の追加などに携わりました。オリジナルアプリの制作経験もあります。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/figma.png" alt="figmaロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">Figma</h2>
+                  <p class="card-text">
+                    ハッカソンにてデザインとプロトタイプを作成しました。また、個人開発物のデザイン時や、デザイン性を高くしたい資料の作成にも活用しています。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/python.png" alt="pythonロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">Python</h2>
+                  <p class="card-text">アルゴリズムの学習に使用しています。また、Flaskを用いてAPIを実装したことがあります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/docker.png" alt="Dockerロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">Docker</h2>
+                  <p class="card-text">
+                    プロジェクトに使うツールを踏まえてDockerfileを記述し、環境構築を行うことができます。インターン、ハッカソン、個人開発などで使用しました。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/html.png" alt="htmlロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">HTML・CSS</h2>
+                  <p class="card-text">
+                    レスポンシブデザインの記述が可能です。このポートフォリオサイトを自作する際にも使用しました。Webクリエイター能力認定試験エキスパートを持っています。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card skill-card col-md-6 p-3 p-md-5">
+              <div class="row card-body">
+                <div class="col-3">
+                  <img src="images/skill/kotlin.png" alt="Kotlinロゴ" class="w-100 skill-image" />
+                </div>
+                <div class="col-9">
+                  <h2 class="card-title skill-title">Kotlin</h2>
+                  <p class="card-text">参考書に沿って幾つかのサンプルアプリを開発しています。11月中のオリジナルアプリ作成を目指しています。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="experience">
