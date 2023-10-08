@@ -1,7 +1,9 @@
 h1,
 h2,
-nav {
-  font-family: "Hannotate SC", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+nav,
+button {
+  font-family: "Tsukimi Rounded", "Yomogi", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic",
+    "Meiryo", sans-serif;
 }
 
 .nav-pills .nav-link.active,
