@@ -1,8 +1,7 @@
 h1,
 h2,
 nav {
-  font-family: "Hannotate SC", "Helvetica Neue", "Helvetica", "Hiragino Sans",
-    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-family: "Hannotate SC", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 
 .nav-pills .nav-link.active,
@@ -13,4 +12,9 @@ nav {
 
 section {
   text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-size: clamp(15px, 1vw, 20px);
 }
