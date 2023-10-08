@@ -13,7 +13,7 @@
   padding: 2rem;
 }
 
-.card-text {
+.skill-card > div .card-text {
   font-size: 20px;
   font-size: clamp(15px, 1vw, 20px);
 }
