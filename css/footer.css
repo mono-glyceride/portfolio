@@ -1,0 +1,11 @@
+.footer-btn {
+  max-width: 300px;
+  color: white;
+  border: solid 0.2em rgb(255, 145, 0);
+  background-color: #262626c9;
+  border-radius: 10px;
+}
+
+.footer-btn:focus {
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+}
